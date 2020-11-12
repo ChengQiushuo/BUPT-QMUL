@@ -1,0 +1,6 @@
+Payment - cash
+Ramen 1: Soup--Tonkotsu,Noodles--Medium,Spring onion--A lot!,Nori--Yes,Chashu--No,Boiled egg--No,Spiciness--4
+Extra Nori: 1
+Extra Chashu: 1
+Cost(EUR): 13.22
+Dining Way: Eat in

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_11" inherit-compiler-output="true" jdk="11" jdk_type="JavaSDK">
+	<output-test url="file://$MODULE_DIR$/classes/test/客户端"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+</component>

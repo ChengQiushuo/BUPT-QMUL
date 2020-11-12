@@ -1,0 +1,6 @@
+Payment - wechat
+Ramen 1: Soup:  Tonkotsu , Noodles:  Medium , Spring onion:  A lot! , Nori:  Yes , Chashu:  No , Boiled egg:  No , 0(No)  ==>  Eat in
+Ramen 2: Soup:  Shio , Noodles:  Medium , Spring onion:  A lot! , Nori:  Yes , Chashu:  No , Boiled egg:  Yes , 4  ==>  Eat in
+Extra Nori: 1 ==> Eat in
+Extra Chashu: 2 ==> Eat in
+Cost: £24.44

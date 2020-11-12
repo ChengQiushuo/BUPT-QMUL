@@ -1,0 +1,68 @@
+{
+  "boss":"Mr. Miyazaki",
+  "restaurant":"Totoro Ramen",
+  "compulsory":[
+  	{
+  		"name":"Soup",
+  		"option":[
+  			{"item":"Tonkotsu", "number":11},
+  			{"item":"Shoyu", "number":33},
+  			{"item":"Shio", "number":22}
+  		]
+  	},
+  	{
+  		"name":"Noodles",
+  		"option":[
+  			{"item":"Soft", "number":33},
+  			{"item":"Medium", "number":11},
+  			{"item":"Firm", "number":22}
+  		]
+  	},
+  	{
+  		"name":"Spring onion",
+  		"option":[
+  			{"item":"No please", "number":11},
+  			{"item":"Just a little", "number":22},
+  			{"item":"A lot!", "number":33}
+  		]
+  	},
+  	{
+  		"name":"Nori",
+  		"option":[
+  			{"item":"Yes", "number":33},
+  			{"item":"No", "number":16}
+  		]
+  	},
+  	{
+  		"name":"Chashu",
+  		"option":[
+  			{"item":"Yes", "number":6},
+  			{"item":"No", "number":11}
+  		]
+  	},
+  	{
+  		"name":"Boiled egg",
+  		"option":[
+  			{"item":"Yes", "number":44},
+  			{"item":"No", "number":22}
+  		]
+  	},
+  	{
+  		"name":"Spiciness",
+  		"option":[
+  			{"item":"0", "number":11},
+  			{"item":"1", "number":22},
+  			{"item":"2", "number":33},
+  			{"item":"3", "number":33},
+  			{"item":"4", "number":99},
+  			{"item":"5", "number":11}
+  		]
+  	}
+  ],
+  "extra":[
+  	{"dish":"Extra Nori", "number":11},
+  	{"dish":"Extra boiled egg", "number":33},
+  	{"dish":"Bammboo shoots", "number":44},
+  	{"dish":"Extra Chashu", "number":22}
+  ]
+}

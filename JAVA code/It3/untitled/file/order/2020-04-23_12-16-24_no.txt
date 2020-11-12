@@ -1,0 +1,6 @@
+Payment - card
+Ramen 1: Tonkotsu , ... , A lot! , Yes , No , Yes , 0(No)  ==>  Eat in
+Ramen 2: Shio , ... , A lot! , Yes , No , Yes , 2  ==>  Eat in
+Extra Nori: 1 ==> Eat in
+Extra Chashu: 1 ==> Eat in
+Cost: £23.21

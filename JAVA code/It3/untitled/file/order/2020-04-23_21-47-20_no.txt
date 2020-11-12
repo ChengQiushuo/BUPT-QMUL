@@ -1,0 +1,3 @@
+Payment - wechat
+Ramen 1: Shio,Soft,A lot!,Yes,No,No,4  ==>  Eat in
+Cost: £9.99

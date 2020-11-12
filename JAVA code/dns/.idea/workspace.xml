@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ffa3193d-ddf3-42da-a020-edb8245f5563" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1hRr3Ype9BmtYBRZ2kXcjG1lNSn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\dns\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.dnsrelay">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="dns" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dnsrelay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dnsrelay" />
+      <module name="dns" />
+      <option name="PROGRAM_PARAMETERS" value="223.6.6.6 D://IdeaProjects//dns//src//com//dnsrelay.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.dnsrelay" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.dnsrelay" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffa3193d-ddf3-42da-a020-edb8245f5563" name="Default Changelist" comment="" />
+      <created>1599984546720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599984546720</updated>
+      <workItem from="1599984550141" duration="1758000" />
+      <workItem from="1599986659246" duration="13271000" />
+      <workItem from="1600050458777" duration="5237000" />
+      <workItem from="1600055957702" duration="1573000" />
+      <workItem from="1600140344960" duration="1424000" />
+      <workItem from="1600310635288" duration="9158000" />
+      <workItem from="1600571916505" duration="2708000" />
+      <workItem from="1600584587243" duration="1906000" />
+      <workItem from="1600665858602" duration="1273000" />
+      <workItem from="1601117322544" duration="1103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600573837338">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600573837338" />
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600313846939">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1600313846939" />
+    <state width="1493" height="642" key="GridCell.Tab.0.bottom" timestamp="1600586497969">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="642" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600586497969" />
+    <state width="1493" height="642" key="GridCell.Tab.0.center" timestamp="1600586497969">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="642" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600586497969" />
+    <state width="1493" height="642" key="GridCell.Tab.0.left" timestamp="1600586497969">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="642" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600586497969" />
+    <state width="1493" height="642" key="GridCell.Tab.0.right" timestamp="1600586497969">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="642" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600586497969" />
+    <state width="1493" height="336" key="GridCell.Tab.1.bottom" timestamp="1600326413554">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="336" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600326413554" />
+    <state width="1493" height="336" key="GridCell.Tab.1.center" timestamp="1600326413553">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="336" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600326413553" />
+    <state width="1493" height="336" key="GridCell.Tab.1.left" timestamp="1600326413553">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="336" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600326413553" />
+    <state width="1493" height="336" key="GridCell.Tab.1.right" timestamp="1600326413553">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="336" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600326413553" />
+    <state x="278" y="0" key="SettingsEditor" timestamp="1600573572540">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="278" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600573572540" />
+    <state x="437" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1601117834919">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="437" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601117834919" />
+    <state x="439" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1599987199259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="439" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599987199259" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dnsquery.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

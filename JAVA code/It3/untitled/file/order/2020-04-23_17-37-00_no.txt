@@ -1,0 +1,3 @@
+Payment - card
+Ramen 1: Soup:  Tonkotsu , Noodles:  Medium , Spring onion:  A lot! , Nori:  Yes , Chashu:  No , Boiled egg:  No , 0(No)  ==>  Eat in
+Cost: £9.99

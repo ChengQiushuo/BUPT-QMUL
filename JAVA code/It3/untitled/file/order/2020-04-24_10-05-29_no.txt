@@ -1,0 +1,6 @@
+Payment - wechat
+Ramen 1: Tonkotsu,Soft,A lot!,Yes,No,No,4  ==>  Take-away
+Ramen 2: Shio,Medium,A lot!,Yes,No,No,4  ==>  Take-away
+Extra Nori: 2 ==> Take-away
+Extra Chashu: 1 ==> Take-away
+Cost: £25.21

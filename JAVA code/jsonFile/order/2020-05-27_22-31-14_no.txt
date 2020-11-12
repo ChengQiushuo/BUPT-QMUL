@@ -1,0 +1,4 @@
+Payment - cash
+Extra Nori: 1
+Cost(EUR): 2.00
+Dining Way: Eat in

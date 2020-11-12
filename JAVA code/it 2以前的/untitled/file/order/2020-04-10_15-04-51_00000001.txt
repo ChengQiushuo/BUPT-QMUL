@@ -1,0 +1,4 @@
+00000001
+Payment - Cash
+Ramen 1: Shoyu, Firm, Spring onion-Just a little, Nori-no, Chashu-yes, Boiled egg-no, 2  ==>  Take-away
+Cost: £9.99

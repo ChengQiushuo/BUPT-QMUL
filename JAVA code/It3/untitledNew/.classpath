@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="boundary/|control/|entity/" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/boundary">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/control">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/entity">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/wookspace/jar大全/forms_rt.jar"/>
+	<classpathentry kind="lib" path="E:/wookspace/jar大全/jcommon-1.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/wookspace/jar大全/json-20190722 2.jar"/>
+	<classpathentry kind="lib" path="E:/wookspace/jar大全/platform-impl.jar"/>
+	<classpathentry kind="lib" path="E:/wookspace/jar大全/jfreechart-1.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/wookspace/jar大全/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/commons-beanutils-1.9.4 - 副本.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/commons-beanutils-1.9.4.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/commons-collections-3.2.2 - 副本.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/forms_rt.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/jcommon-1.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/jfreechart-1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/json-20190722 2.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/json-20190722.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/IdeaProjects/jar大全/platform-impl.jar"/>
+	<classpathentry kind="output" path="out/production/untitled"/>
+</classpath>

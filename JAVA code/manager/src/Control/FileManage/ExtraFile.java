@@ -1,0 +1,179 @@
+package Control.FileManage;
+/** 
+ * projectName: SoftwareEngineering
+ * fileName: ExtraFile.java 
+ * packageName: Control.FileManage
+ * date:2020.5 
+ * copyright(c) EBU6304-2020 Software Engineering Group 87
+ */
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.*;
+import java.text.DecimalFormat;
+import Entity.Extra;
+
+/**
+ * ClassName: ExtraFile<br>
+ * Description: This is the control class that used to operate on<br>
+ * the 'extra.json' file which contains all the information about extra dishes in json format.
+ * @version V2.0
+ */
+public class ExtraFile {
+	private JSONObject extra;
+	private JSONObject dish;
+	private JSONArray  extra_dishes;
+    private String extra_url = "../jsonfile/extra.json";
+    int m = 0;
+    private int Extralength = 0;
+    private Extra[] extraArr;
+    
+    /**
+   	* This constructor used to read all the information about extra dishes from json file<br>
+   	* and store them into Extra[] which is the array of Extra objects.
+   	*/
+    public ExtraFile() {
+    	  String extra_temp = "";
+          String extra_string = "";
+          FileReader extra_fr;
+		try {
+			extra_fr = new FileReader(extra_url);
+			 BufferedReader extra_br = new BufferedReader(extra_fr);
+	          while ((extra_temp=extra_br.readLine())!=null) {
+	              extra_string = extra_string + extra_temp + "\n";
+	          }
+	          extra = new JSONObject(extra_string);
+	          extra_dishes = extra.getJSONArray("dishes");
+	          Extralength = extra_dishes.length();
+	          extraArr = new Extra[10];
+	          for(m=0; m<extra_dishes.length(); m++) {
+	              JSONObject obj = (JSONObject)extra_dishes.get(m);
+	              Extra extraObj = new Extra(obj.getString("dishID"),obj.getString("name"),obj.getDouble("price"),obj.getString("availability"));
+	              extraArr[m] = extraObj;
+	          }
+
+	          for(; m<10; m++) {
+	          	 Extra  extraObj = new  Extra ();
+	               extraArr[m] = extraObj;
+	          }
+
+	          extra_br.close();
+	          extra_fr.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}	
+    }
+    
+    /**
+	* Used to get the object array of extra dishes which contains all the information about extra dishes
+	* @return Extra[] the object array of extra dishes
+	*/
+    public Extra[] getExtraInfo(){
+                 return extraArr;
+    }
+    
+    /**
+	* Used to get the number of extra dishes
+	* @return int the number of extra dishes
+	*/
+    public int getLength() {
+    	return this.Extralength;
+    }
+    
+    /**
+	* Used to add an extra dish
+	* @param name the name of the extra dish
+	* @param price the price of the new extra dish
+	* @throws IOException when read/write info about extra dishes from/to file failed
+	*/
+    public void AddExtra(String name,String price) throws IOException {   
+		String index;
+		int number;	
+		String compulsory_temp = "";
+        String compulsory_string = "";
+        FileReader compulsory_fr = new FileReader(extra_url);
+        BufferedReader compulsory_br = new BufferedReader(compulsory_fr);
+        while ((compulsory_temp=compulsory_br.readLine())!=null) {
+            compulsory_string = compulsory_string + compulsory_temp + "\n";
+        }
+        compulsory_br.close();
+        JSONObject compulsory = new JSONObject(compulsory_string);
+        JSONArray compulsorydishes = compulsory.getJSONArray("dishes");
+        number=compulsorydishes.length()+1;
+        if(number<=9) {
+        	index="0"+number;
+        }else {
+        	index=""+number;
+        }           
+        Double d= Double.parseDouble(price);
+		DecimalFormat df = new DecimalFormat("0.00");
+		String s=df.format(d);
+		String jsonStr = "{\"dishID\":\"extra"+index+"\",\"name\":\""+name+"\",\"price\":\""+s+"\",\"availability\":\"Yes\"}";
+        JSONObject json1 = new JSONObject(jsonStr);
+        compulsorydishes.put(json1);    
+        try {
+            FileWriter fw = new FileWriter(extra_url);
+            PrintWriter pw = new PrintWriter(fw);
+            String str[] = compulsory.toString().split(",");
+            int i;
+            for(i=0; i<str.length-1; i++) {
+                pw.println(str[i]+",");
+            }
+            pw.println(str[i]);
+            pw.close();
+            fw.close();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+    }
+    
+    /**
+   	* Used to delete an extra dish
+   	* @param index the index of the extra dish in the extra dishes info array
+   	*/
+    public void DeleteExtra(int index) {
+    	extra_dishes.remove(index);
+    	  try {
+              FileWriter fw = new FileWriter(extra_url);
+              PrintWriter pw = new PrintWriter(fw);
+              String str[] = extra.toString().split(",");
+              int i;
+              for(i=0; i<str.length-1; i++) {
+                  pw.println(str[i]+",");
+              }
+              pw.println(str[i]);
+              pw.close();
+              fw.close();
+          } catch (IOException ex) {
+              ex.printStackTrace();
+          }   	
+    }
+    
+    /**
+   	* Used to set the properties of an extra dish
+   	* @param index the index of the extra dish in the extra dishes info array
+   	* @param price the price of the extra dish
+   	* @param Availability the availability status of the extra dish 
+   	*/
+    public void SetExtra(int index,String price,String Availability) {
+    	  dish = (JSONObject)extra_dishes.get(index);
+    	  System.out.println(price);
+    	  System.out.println(Availability);
+    	  dish.put("price", Double.parseDouble(price));
+          dish.put("availability", Availability);
+    	  try {
+              FileWriter fw = new FileWriter(extra_url);
+              PrintWriter pw = new PrintWriter(fw);
+              String str[] = extra.toString().split(",");
+              int i;
+              for(i=0; i<str.length-1; i++) {
+                  pw.println(str[i]+",");
+              }
+              pw.println(str[i]);
+              pw.close();
+              fw.close();
+          } catch (IOException ex) {
+              ex.printStackTrace();
+          }   	
+    }
+}

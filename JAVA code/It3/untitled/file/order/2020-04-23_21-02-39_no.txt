@@ -1,0 +1,4 @@
+Payment - wechat
+Ramen 1: Soup:  Shio , Noodles:  Soft , Spring onion:  A lot! , Nori:  Yes , Chashu:  No , Boiled egg:  No , 2  ==>  Eat in
+Ramen 2: Soup:  Shio , Noodles:  Medium , Spring onion:  A lot! , Nori:  Yes , Chashu:  No , Boiled egg:  No , 2  ==>  Eat in
+Cost: £19.98

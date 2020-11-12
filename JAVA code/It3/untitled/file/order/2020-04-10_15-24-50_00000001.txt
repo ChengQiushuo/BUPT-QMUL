@@ -1,0 +1,4 @@
+00000001
+Payment - Card
+Ramen 1: Tonkotsum, Soft, Spring onion-No please, Nori-yes, Chashu-no, Boiled egg-yes, 0  ==>  Take-away
+Cost: £9.99

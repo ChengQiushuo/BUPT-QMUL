@@ -1,0 +1,4 @@
+00000001
+Payment - Card
+Ramen 1: Shio, Medium, Spring onion-A lot!, Nori-no, Chashu-no, Boiled egg-no, 4  ==>  Take-away
+Cost: £9.99

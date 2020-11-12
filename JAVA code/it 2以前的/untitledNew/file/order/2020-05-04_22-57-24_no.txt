@@ -1,0 +1,7 @@
+Payment - wechat
+Ramen 1: Soup--Tonkotsu,Noodles--Medium,Spring onion--A lot!,Nori--Yes,Chashu--No,Boiled egg--No,Spiciness--2  ==>  Take-away
+Ramen 2: Soup--Tonkotsu,Noodles--Medium,Spring onion--A lot!,Nori--Yes,Chashu--No,Boiled egg--No,Spiciness--2  ==>  Take-away
+Ramen 3: Soup--Tonkotsu,Noodles--Medium,Spring onion--A lot!,Nori--Yes,Chashu--No,Boiled egg--No,Spiciness--2  ==>  Take-away
+Extra Nori: 1 ==> Take-away
+Extra Chashu: 1 ==> Take-away
+Cost: £33.20

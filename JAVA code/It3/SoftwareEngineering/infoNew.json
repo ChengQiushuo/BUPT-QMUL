@@ -1,0 +1,16 @@
+{"boss":"Mr. Miyazaki",
+    "restaurant": "Totoro Ramen",
+    "compulsory": [
+        {
+            "name": "Soup",
+            "option": [ { "name": "Tonkotsu", "number": 10 }, { "name": "Shoyu", "number": 10 } ]
+        },
+        {
+            "name": "Noodles",
+            "option": [ { "name": "Soft", "number": 10 }, { "name": "Medium", "number": 10 } ]
+        }
+    ],
+    "extra": [
+        { "name": "Extra Nori", "number": 10 },
+        { "name": "Extra Chashu", "number": 10 }
+    ]}

@@ -1,0 +1,401 @@
+boundary:
+    Customer_pay:
+        /**
+         * Title        : Customer_pay.java
+         * Description  : This class is the GUI for paying for the order without membership.
+         * @author      : Hu Zhenming
+         * @version     : 1.2
+         */
+        /**
+         * Customer_pay constructor with parameters.
+         * Create the GUI.
+         * @param RamenInfos The information of the ramen.
+         * @param extraInfos The information of extra dishes.
+         */
+        /**
+         * method: void actionPerformed(e)
+         * This method can response to events.
+         * @param e The event.
+         */
+
+    Detail:
+        /**
+         * Title        : Detail.java
+         * Description  : This class is the GUI for checking order details.
+         * @author      : Hu Zhenming
+         * @version     : 1.3
+         */
+        /**
+         * Detail constructor with parameters.
+         * Create the GUI.
+         * @param RamenInfos The information of the ramen.
+         * @param extraInfos The information of extra dishes.
+         */
+        /**
+         * method: void actionPerformed(e)
+         * This method can response to events.
+         * @param e The event.
+         */
+        /**
+         * method: void JlabelSetText(jLabel, longString)
+         * This method is used for setting the text of the label.
+         * @param jLabel The label whose text we want to set.
+         * @param longString The text which is the content of the label we want to set.
+         */
+
+    LogIn:
+        /**
+         * Title        : LogIn.java
+         * Description  : This class is the GUI for logging in.
+         * @author      : Hu Zhenming
+         * @version     : 1.1
+         */
+        /**
+         * LogIn constructor with parameters.
+         * Create the GUI.
+         * @param RamenInfos The information of the ramen.
+         * @param extraInfos The information of extra dishes.
+         */
+        /**
+         * method: void actionPerformed(e)
+         * This method can response to events.
+         * @param e The event.
+         */
+
+    Member_pay:
+        /**
+         * Title        : Member_pay.java
+         * Description  : This class is the GUI for paying for the order with membership.
+         * @author      : Hu Zhenming
+         * @version     : 2.2
+         */
+        /**
+         * Member_pay constructor with parameters.
+         * Create the GUI.
+         * @param num The membership number.
+         * @param RamenInfos The information of the ramen.
+         * @param extraInfos The information of extra dishes.
+         * @param flag Whether to use stamps to participate in the reduction campaign.
+         */
+        /**
+         * method: double calculatePrice()
+         * This method is used for calculating the price.
+         * @return The total cost.
+         */
+        /**
+         * method: void actionPerformed(e)
+         * This method can response to events.
+         * @param e The event.
+         */
+        /**
+         * method: void JlabelSetText(jLabel, longString)
+         * This method is used for setting the text of the label.
+         * @param jLabel The label whose text we want to set.
+         * @param longString The text which is the content of the label we want to set.
+         */
+
+    OrderFood:
+        /**
+         * Title        : OrderFood.java
+         * Description  : This class is the GUI for ordering food.
+         * @author      : Hu Zhenming
+         * @version     : 1.2
+         */
+        /**
+         * OrderFood constructor with parameters.
+         * Create the GUI.
+         * @param RamenInfos The information of the ramen.
+         * @param extraInfos The information of extra dishes.
+         */
+        /**
+         * method: void updateSum()
+         * This method is used for updating the sum of the cost.
+         */
+        /**
+         * method: void actionPerformed(e)
+         * This method can response to events.
+         * @param e The event.
+         */
+
+    Ramen:
+        /**
+         * Title        : Ramen.java
+         * Description  : This class is the GUI for ordering ramen.
+         * @author      : Hu Zhenming
+         * @version     : 2.0
+         */
+        /**
+         * Ramen constructor with parameters.
+         * Create the GUI.
+         * @param RamenInfos The information of the ramen.
+         * @param extraInfos The information of extra dishes.
+         */
+        /**
+         * method: void actionPerformed(e)
+         * This method can response to events.
+         * @param e The event.
+         */
+
+    SignUp:
+        /**
+         * Title        : SignUp.java
+         * Description  : This class is the GUI for signing up.
+         * @author      : Hu Zhenming
+         * @version     : 1.0
+         */
+        /**
+         * SignUp constructor with parameters.
+         * Create the GUI.
+         * @param RamenInfos The information of the ramen.
+         * @param extraInfos The information of extra dishes.
+         */
+        /**
+         * method: int checkFirstName()
+         * This method is used for checking if the first name is valid.
+         * @return Whether the first name is valid.
+         */
+        /**
+         * method: int checkSurname()
+         * This method is used for checking if the surname is valid.
+         * @return Whether the surname is valid.
+         */
+        /**
+         * method: int checkEmail()
+         * This method is used for checking if the email is valid.
+         * @return Whether the email is valid.
+         */
+        /**
+         * method: int checkMobileNumber()
+         * This method is used for checking if the mobile number is valid.
+         * @return Whether the mobile number is valid.
+         */
+        /**
+         * method: String gen_num()
+         * This method is used for generating the membership number.
+         * @return The membership number.
+         */
+        /**
+         * method: void actionPerformed(e)
+         * This method can response to events.
+         * @param e The event.
+         */
+
+    StartGui:
+        /**
+         * Title        : StartGui.java
+         * Description  : This class is the main program file of the Group-Project Coursework.
+         * @author      : Hu Zhenming
+         * @version     : 1.1
+         */
+        /**
+         * StartGui constructor without parameter.
+         * Create the GUI.
+         */
+        /**
+         * method: void actionPerformed(e)
+         * This method can response to events.
+         * @param e The event.
+         */
+        /**
+         * method: void main(args)
+         * The main method only creates a new instance of the program.
+         * @param args The program does not use this parameter.
+         */
+
+
+
+control:
+    CompulsoryFile:
+        /**
+         * Title        : CompulsoryFile.java
+         * Description  : This class is used for processing compulsory dish information.
+         * @author      : Hu Zhenming
+         * @version     : 1.1
+         */
+        /**
+         * CompulsoryFile constructor without parameter.
+         * Process the information.
+         */
+        /**
+         * method: JSONObject json(file)
+         * This method is used for reading compulsory information.
+         * @param file The url of compulsory.
+         * @return The information of Json format.
+         */
+
+    ExtraFile:
+        /**
+         * Title        : ExtraFile.java
+         * Description  : This class is used for processing extra dish information.
+         * @author      : Hu Zhenming
+         * @version     : 1.1
+         */
+        /**
+         * ExtraFile constructor without parameter.
+         * Process the information.
+         */
+        /**
+         * method: JSONObject json(file)
+         * This method is used for reading extra information.
+         * @param file The url of extra.
+         * @return The information of Json format.
+         */
+
+    MemberFile:
+        /**
+         * Title        : MemberFile.java
+         * Description  : This class is used for processing membership information.
+         * @author      : Hu Zhenming
+         * @version     : 1.1
+         */
+        /**
+         * MemberFile constructor without parameter.
+         * Process the information.
+         */
+        /**
+         * method: JSONObject json(file)
+         * This method is used for reading membership information.
+         * @param file The url of membership.
+         * @return The information of Json format.
+         */
+
+    NewMemberControl:
+        /**
+         * Title        : NewMemberControl.java
+         * Description  : This class is used for processing a new membership.
+         * @author      : Hu Zhenming
+         * @version     : 1.1
+         */
+        /**
+         * NewMemberControl constructor with a parameter.
+         * Process the information.
+         * @param newmember The new membership.
+         */
+        /**
+         * method: void AddNewMember()
+         * This method is used for adding the new membership.
+         */
+
+    compulsoryReport:
+        /**
+         * Title        : compulsoryReport.java
+         * Description  : This class is used for processing the report information.
+         * @author      : Hu Zhenming
+         * @version     : 1.1
+         */
+
+    UpdateReport:
+        /**
+         * Title        : UpdateReport.java
+         * Description  : This class is used for updating the report information.
+         * @author      : Hu Zhenming
+         * @version     : 1.1
+         */
+        /**
+         * UpdateReport constructor with parameters.
+         * Update the report.
+         * @param ExtraInfo The extra information.
+         * @param RamenInfo The ramen information.
+         */
+
+    Order:
+        /**
+         * Title        : Order.java
+         * Description  : This class is used for creating order information.
+         * @author      : Hu Zhenming
+         * @version     : 1.2
+         */
+        /**
+         * Order constructor with parameters.
+         * Create the order.
+         * @param payment The way of the payment.
+         * @param RamenInfos The information of the ramen.
+         * @param extraInfos The information of extra dishes.
+         */
+        /**
+         * Order constructor with parameters.
+         * Create the order.
+         * @param payment The way of the payment.
+         * @param number The membership number.
+         * @param RamenInfos The information of the ramen.
+         * @param extraInfos The information of extra dishes.
+         * @param flag Whether to use stamps to participate in the reduction campaign.
+         */
+
+    Payment:
+        /**
+         * Title        : Payment.java
+         * Description  : This class is used for reading payment information.
+         * @author      : Hu Zhenming
+         * @version     : 1.2
+         */
+        /**
+         * Payment constructor without parameter.
+         * Process the information.
+         */
+        /**
+         * method: JSONObject json(file)
+         * This method is used for reading payment information.
+         * @param file The url of payment.
+         * @return The information of Json format.
+         */
+
+
+
+entity:
+    CompulsoryInfo:
+        /**
+         * Title        : CompulsoryInfo.java
+         * Description  : This class is used for processing compulsory information.
+         * @author      : Hu Zhenming
+         * @version     : 1.2
+         */
+        /**
+         * CompulsoryInfo constructor without parameter.
+         * Process the information.
+         */
+
+    ExtraInfo:
+        /**
+         * Title        : ExtraInfo.java
+         * Description  : This class is used for processing extra information.
+         * @author      : Hu Zhenming
+         * @version     : 1.2
+         */
+        /**
+         * ExtraInfoo constructor without parameter.
+         * Process the information.
+         */
+
+    MemberInfo:
+        /**
+         * Title        : MemberInfo.java
+         * Description  : This class is used for processing membership information.
+         * @author      : Hu Zhenming
+         * @version     : 1.2
+         */
+
+    NewMember:
+        /**
+         * Title        : NewMember.java
+         * Description  : This class is used for generating a new membership.
+         * @author      : Hu Zhenming
+         * @version     : 1.1
+         */
+        /**
+         * NewMember constructor with parameters.
+         * Process the information.
+         * @param l1 The membership number.
+         * @param l2 The first name.
+         * @param l3 The last name.
+         * @param l4 The email.
+         * @param l5 The mobile number.
+         */
+
+    RamenInfo:
+        /**
+         * Title        : RamenInfo.java
+         * Description  : This class is used for processing ramen information.
+         * @author      : Hu Zhenming
+         * @version     : 1.2
+         */

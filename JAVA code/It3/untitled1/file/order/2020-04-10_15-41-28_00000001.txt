@@ -1,0 +1,4 @@
+00000001
+Payment - Stamps
+Ramen 1: Shoyu, Firm, Spring onion-A lot!, Nori-yes, Chashu-no, Boiled egg-yes, 4  ==>  Take-away
+Cost: £0.00

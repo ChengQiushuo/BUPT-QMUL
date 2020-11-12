@@ -1,0 +1,4 @@
+Payment - cash
+Ramen 1: SoupTonkotsu , Noodles... , Spring onionA lot! , NoriYes , ChashuNo , Boiled eggYes , 0(No)  ==>  Eat in
+Extra Nori: 2 ==> Eat in
+Cost: £13.99

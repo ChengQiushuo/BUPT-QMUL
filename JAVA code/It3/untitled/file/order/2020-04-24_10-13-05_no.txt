@@ -1,0 +1,6 @@
+Payment - cash
+Ramen 1: Shio,Soft,A lot!,Yes,No,No,4  ==>  Eat in
+Ramen 2: Tonkotsu,Soft,A lot!,Yes,No,No,4  ==>  Eat in
+Extra Nori: 2 ==> Eat in
+Extra Chashu: 1 ==> Eat in
+Cost: £25.21

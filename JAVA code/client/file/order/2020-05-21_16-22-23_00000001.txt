@@ -1,0 +1,7 @@
+00000001
+Payment - stamps&cash
+Ramen 1: Soup--Tonkotsu,Noodles--Medium,Spring onion--A lot!,Nori--Yes,Chashu--No,Boiled egg--No,Spiciness--2  ==>  Eat in
+Extra Nori: 1 
+Extra Chashu: 1 
+Dining Way: Eat in
+Cost: £13.23

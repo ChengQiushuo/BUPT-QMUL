@@ -1,0 +1,10 @@
+{"boss":"Mr. Miyazaki",
+"restaurant":"Totoro Ramen",
+"payments":[{"name":"wechat",
+"availability":"Yes"},
+{"name":"cash",
+"availability":"Yes"},
+{"name":"card",
+"availability":"Yes"},
+{"name":"newPayment",
+"availability":"Yes"}]}

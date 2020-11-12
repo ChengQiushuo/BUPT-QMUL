@@ -1,0 +1,3 @@
+Payment - wechat
+Ramen 1: Tonkotsu , Soft , A lot! , Yes , No , Yes , 0(No)  ==>  Eat in
+Cost: £9.99

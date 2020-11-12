@@ -1,0 +1,3 @@
+Payment - cash
+Ramen 1: Shio , Medium , A lot! , Yes , No , No , 4  ==>  Take-away
+Cost: £9.99

@@ -1,0 +1,4 @@
+00000001
+Payment - Stamps
+Ramen 1: Soup--Tonkotsu,Noodles--Soft,Spring onion--A lot!,Nori--Yes,Chashu--No,Boiled egg--No,Spiciness--4  ==>  Eat in
+Cost: £0.00
